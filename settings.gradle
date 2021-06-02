@@ -1,0 +1,3 @@
+include ':Aptitude'
+include ':app'
+rootProject.name = "Apti Orginal"
