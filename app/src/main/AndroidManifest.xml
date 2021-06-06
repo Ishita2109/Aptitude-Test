@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aptiorginal">
+    package="com.example.aptitudetest">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/brain"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/brain"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AptiOrginal">
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultActivity"></activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:label="@string/title_activity_results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Questions" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
